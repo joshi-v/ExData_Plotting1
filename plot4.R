@@ -12,7 +12,7 @@ with(elec.sub, {
   plot(Global_active_power~Datetime, type="l", 
        ylab="Global Active Power (kilowatts)", xlab="")
   plot(Voltage~Datetime, type="l", 
-       ylab="Voltage (volt)", xlab="")
+       ylab="Voltage (volt)", xlab="datetime")
   plot(Sub_metering_1~Datetime, type="l", 
        ylab="Global Active Power (kilowatts)", xlab="")
   lines(Sub_metering_2~Datetime,col='Red')
